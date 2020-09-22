@@ -1,4 +1,4 @@
-# facial_landmark_detection
+# Facial Landmark Detection using CNN
 
 Creating a CNN model to detect facial landmark in an image.
 

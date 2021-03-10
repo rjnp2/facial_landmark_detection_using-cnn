@@ -24,7 +24,7 @@ Use Convolutional Neural Network to detect facial landmark in an image.
 Dataset
 We will use data provided by Large-scale CelebFaces Attributes (CelebA) Dataset. This is a huge dataset total of 2 GB images. Here I have used 150000 images for the training set with 0.08% images for validation dataset. This data contains text image segments which look like images shown below:
 
-![intro](https://user-images.githubusercontent.com/58425689/91628517-2de2b600-e9e0-11ea-99f8-7e02775f3fda.png)
+![intro](https://github.com/rjnp2/facial_landmark_detection_using-cnn/blob/master/images/1.png)
 
 To download the dataset either you can directly download from this [link](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
 
@@ -89,16 +89,15 @@ various classes based on labels.
 ### This network architecture.
 Let’s see the steps that we used to create the architecture:
 
-![1](https://user-images.githubusercontent.com/58425689/91628799-296bcc80-e9e3-11ea-9e5b-ba80f6ad9ab4.png)
-![2](https://user-images.githubusercontent.com/58425689/91628801-2a9cf980-e9e3-11ea-8b52-34b878407ec9.png)
+![1](https://github.com/rjnp2/facial_landmark_detection_using-cnn/blob/master/images/2.png)
+![2](https://github.com/rjnp2/facial_landmark_detection_using-cnn/blob/master/images/3.png)
 
 ### Loss Function
 we use mean square errors loss function.
 
-![download (2)](https://user-images.githubusercontent.com/58425689/91628871-a1d28d80-e9e3-11ea-8bfc-027a6e0cd0dc.png)
+![download (2)](https://github.com/rjnp2/facial_landmark_detection_using-cnn/blob/master/images/4.png)
 
 Test the model
 Our model is now trained with images. Now its time to test the model. We can use our training model. 
 
-
-![1](https://user-images.githubusercontent.com/58425689/91628913-173e5e00-e9e4-11ea-900b-f0ab5603df71.gif)
+![1](https://github.com/rjnp2/facial_landmark_detection_using-cnn/blob/master/images/5.gif)

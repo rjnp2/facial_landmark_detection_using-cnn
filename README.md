@@ -12,7 +12,7 @@ Requirements
 Description
 Use Convolutional Neural Network to detect facial landmark in an image.
 
-## We will use the following steps to create our text recognition model.
+## We will use the following steps to create our Facial Landmark Detection model.
 
 1. Collecting Dataset
 2. Preprocessing Data
